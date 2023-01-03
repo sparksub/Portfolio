@@ -7,9 +7,13 @@ import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineUser,
+  AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+
+// const path = "/Portfolio";
+const path = "";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -33,7 +37,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/Portfolio">
+        <Navbar.Brand href={path+"/"}>
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -49,7 +53,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/Portfolio" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to={path+"/"} onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
@@ -57,30 +61,30 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/Portfolio/about"
+                to={path+"/about"}
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
-            {/*<Nav.Item>*/}
-            {/*  <Nav.Link*/}
-            {/*    as={Link}*/}
-            {/*    to="/project"*/}
-            {/*    onClick={() => updateExpanded(false)}*/}
-            {/*  >*/}
-            {/*    <AiOutlineFundProjectionScreen*/}
-            {/*      style={{ marginBottom: "2px" }}*/}
-            {/*    />{" "}*/}
-            {/*    Projects*/}
-            {/*  </Nav.Link>*/}
-            {/*</Nav.Item>*/}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to={path+"/project"}
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/Portfolio/resume"
+                to={path+"/resume"}
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume

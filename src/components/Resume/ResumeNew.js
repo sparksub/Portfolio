@@ -7,11 +7,6 @@ import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
 
   return (
     <div>
@@ -28,7 +23,7 @@ function ResumeNew() {
           <img src={"https://user-images.githubusercontent.com/57142322/210320442-22c2a063-8d63-4e84-b9b0-249fdb9a415a.png"}
                alt="home pic"
                className="img-fluid"
-               width={width}
+               width={800}
           />
           {/*<Document file={"https://github.com/sparksub/HCAIL-Medical-FoodImage/files/10335005/Subin_Park_Resume.pdf"}>*/}
           {/*  <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />*/}

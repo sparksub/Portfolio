@@ -10,8 +10,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import ScrollToTop from "./components/ScrollToTop";
+
+// const path = "/Portfolio";
+const path = "";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -31,10 +33,10 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Switch>
-          <Route path="/Portfolio" exact component={Home} />
-          <Route path="/Portfolio/project" component={Projects} />
-          <Route path="/Portfolio/about" component={About} />
-          <Route path="/Portfolio/resume" component={Resume} />
+          <Route path={path+"/"} exact component={Home} />
+          <Route path={path+"/project"} component={Projects} />
+          <Route path={path+"/about"} component={About} />
+          <Route path={path+"/resume"} component={Resume} />
         </Switch>
         <Footer />
       </div>
