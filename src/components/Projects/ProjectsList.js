@@ -11,7 +11,7 @@ export default [
     {
         title: "Educational VR for OA",
         imgPath: vr,
-        description: "We proposed VR content for fire evacuation training for the older adults (OA). We explored how OA navigate educational VR environments and what perception they have about VR. Moreover, we found how OA's behavior and perception differ from young adults. As a result, VR can be usefully used as an educational material for disaster evacuation training for the OA.\n\n As the first author, I led research and participated in all parts of the study other than VR content development.",
+        description: "We proposed VR content for fire evacuation training for the older adults (OA). We explored how OA navigate VR environments and what perception they have about VR. Moreover, we found how OA's behavior and perception differ from young adults. As a result, we suggested the design opportunities about VR as an educational material for disaster evacuation.\n\n As the first author, I led research and participated in all parts of the study other than VR development.",
         isLink1: "paper",
         link1: "https://link.springer.com/article/10.1007/s10209-022-00878-8",
         isLink2: "paper",
@@ -38,7 +38,7 @@ export default [
     {
         title: "Surf",
         imgPath: surf,
-        description: "We have experienced a complete non-face-to-face class that we have never experienced before this time due to the pandemic. Of course, there were online learning platforms like internet lectures in the past, but no one would have imagined that all kinds of classes would be conducted non-face-to-face like now. Our team developed Surf, an remote learning solution that can help reducing the gap between teachers and students during non-face-to-face class. \n\nI was responsible for developing web services based on React and SCSS.",
+        description: "There were online learning platforms like internet lectures in the past, but no one would have imagined that all kinds of classes would be conducted non-face-to-face after pandemic. Our team developed Surf, an remote learning solution that can help reducing the gap between teachers and students during non-face-to-face class. \n\nI was responsible for developing web services based on React and SCSS.",
         isLink1: "video",
         link1: "https://youtu.be/6Ih8yFu74gQ",
         isLink2: "github",
@@ -56,7 +56,7 @@ export default [
     {
         title: "Toward accessible Live Streaming Platform",
         imgPath: streaming,
-        description: "While researchers' interest in live streaming has increased recently, the accessibility of live streaming for people with visual impairments is still under-examined. Based on semi-structured interviews with 14 participants, we identified SVI's motivations for live streaming, their unique interactions with videos and people on live streaming platforms, and the challenges they face during live streaming. Based on the results of this study, we present design opportunities to better support SVI on live streaming platforms. \n\nIn this study, I analyzed the interview results using an affinity diagram, and designed design opportunities.",
+        description: "The accessibility of live streaming for people with visual impairments (SVI) is still under-examined. Based on semi-structured interviews with 14 participants, we identified SVI's unique interactions and the challenges they face during live streaming. Based on the results of this study, we present design opportunities to better support SVI on live streaming platforms. \n\nIn this study, I analyzed the interview results using an affinity diagram, and designed design opportunities.",
         isLink1: "paper",
         link1: "https://dl.acm.org/doi/abs/10.1145/3476038",
         isLink2: "",
