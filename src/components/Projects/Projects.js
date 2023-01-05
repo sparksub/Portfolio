@@ -18,24 +18,20 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {
-            projects!=[] ? (
-                <p style={{ color: "black" }}>
-                    TBA
-                </p>
-            )
-            :(
-                projects.map((project)=>(
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={project.imgPath}
-                            isBlog={false}
-                            title={project.title}
-                            description={project.description}
-                            link={project.link}
-                        />
-                    </Col>
-                ))
-            )
+              projects.map((project)=>(
+                  <Col md={4} className="project-card">
+                      <ProjectCard
+                          imgPath={project.imgPath}
+                          isBlog={false}
+                          title={project.title}
+                          description={project.description}
+                          isLink1={project.isLink1}
+                          link1={project.link1}
+                          isLink2={project.isLink2}
+                          link2={project.link2}
+                      />
+                  </Col>
+              ))
           }
         </Row>
       </Container>

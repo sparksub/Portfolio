@@ -501,7 +501,7 @@ html {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
+  opacity: 0.9 !important;
   border-radius: 10px !important;
 }
 
@@ -514,12 +514,12 @@ html {
 .btn-primary {
   color: black !important;
   background-color: white !important;
-  border-color: white !important;
+  border-color: #E26868 !important;
 }
 
 .btn-primary:hover {
   color: black !important;
-  background-color: white !important;
+  background-color: #E26868 !important;
   border-color: white !important;
 }
 .btn:focus {
