@@ -5,7 +5,6 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import {FaGoogle, FaLinkedinIn} from "react-icons/fa";
 
@@ -33,6 +32,7 @@ function Home2() {
                 <i>
                   <b className="purple"> Flutter, Swift and React. </b>
                 </i>
+              All of my project designs are done by myself.
               <br />
               <br />
               I like viewing artworks 🖼 and watching baseball game ⚾️
@@ -91,16 +91,16 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                    href="https://www.instagram.com/subin_park__/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              {/*<li className="social-icons">*/}
+              {/*  <a*/}
+              {/*      href="https://www.instagram.com/subin_park__/"*/}
+              {/*      target="_blank"*/}
+              {/*      rel="noreferrer"*/}
+              {/*      className="icon-colour  home-social-icons"*/}
+              {/*  >*/}
+              {/*    <AiFillInstagram />*/}
+              {/*  </a>*/}
+              {/*</li>*/}
             </ul>
           </Col>
         </Row>

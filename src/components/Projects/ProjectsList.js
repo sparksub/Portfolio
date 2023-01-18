@@ -56,7 +56,7 @@ export default [
     {
         title: "Toward accessible Live Streaming Platform",
         imgPath: streaming,
-        description: "Based on semi-structured interviews with 14 participants, we identified the unique interactions and the challenges SVI face during live streaming, and present design opportunities to better support SVI on live streaming platforms. \n\nIn this study, I analyzed the interview results using an affinity diagram, and designed design opportunities.",
+        description: "Based on semi-structured interviews with 14 streamers with visual impairments (SVI), we identified the unique interactions and the challenges SVI face during live streaming, and present design opportunities to better support SVI on live streaming platforms. \n\nIn this study, I analyzed the interview results using an affinity diagram, and designed design opportunities.",
         isLink1: "paper",
         link1: "https://dl.acm.org/doi/abs/10.1145/3476038",
         isLink2: "",

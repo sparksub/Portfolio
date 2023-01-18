@@ -10,11 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Subin Park </span>
             from <span className="purple"> Republic of Korea. </span>
-            I am a 21(22)-year-old junior at
-            <a href={"https://www.khu.ac.kr/eng/main/index.do"}> Kyung Hee University</a>
-            ,
-            <a href={"http://swcon.khu.ac.kr/wordpress/"}> Department of Software Convergence</a>
-            . I am also a undergraduate research intern at
+            I am a 21-year-old junior at
+            <a href={"https://www.khu.ac.kr/eng/main/index.do"}> Kyung Hee University, </a>
+            <a href={"http://swcon.khu.ac.kr/wordpress/"}> Department of Software Convergence. </a>
+            I am also a undergraduate research intern at
             <a href={"https://hcail.uos.ac.kr/index.html"}> Human-Centered Artificial Intelligence Lab </a>
             at the University of Seoul, under the supervision of
             <a href={"http://hyunggujung.com/index.html"}> Prof. Hyunggu Jung. </a>

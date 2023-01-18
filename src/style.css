@@ -728,9 +728,18 @@ html {
   text-align: center !important;
 }
 
+.fork-btn-inner-lang {
+  font-size: 0.7em !important;
+  line-height: 1.4em !important;
+  background-color: #E26868 !important;
+  padding: 0.55rem 0.7rem !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #E26868 !important;
+  background-color: white !important;
   border-color: #E26868 !important;
 }
 .fork-btn-inner::after {

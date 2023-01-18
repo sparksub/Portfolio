@@ -14,7 +14,7 @@ import {
 import { CgFileDocument } from "react-icons/cg";
 import Button from "react-bootstrap/Button";
 
-function NavBar() {
+function NavBarKo() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -53,7 +53,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to={"/"} onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to={"/ko"} onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
@@ -61,7 +61,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to={"/about"}
+                to={"/ko/about"}
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
@@ -71,7 +71,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to={"/project"}
+                to={"/ko/project"}
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -84,21 +84,22 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to={"/resume"}
+                to={"/ko/resume"}
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
-            <Navbar.Brand href={"/ko"}>
+            <Navbar.Brand href={"/"}>
               <Button
                   target="_blank"
                   className="fork-btn-inner-lang"
               >
-                {"한글"}
+                {"Eng"}
               </Button>
             </Navbar.Brand>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -106,4 +107,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBarKo;
