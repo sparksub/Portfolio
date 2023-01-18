@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
-import NavbarKo from "./components/NavbarKo";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -36,10 +35,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        {window.location.href.includes('/ko') === true ?
-            (<NavbarKo />)
-          :(<Navbar />)
-        }
+        <Navbar />
 
         <ScrollToTop />
         <Switch>
@@ -50,7 +46,7 @@ function App() {
           <Route path={path+"/resume"} component={Resume} />
 
           {/*KOREAN*/}
-          <Route path={pathKo} component={HomeKo} />
+          <Route path={pathKo} exact component={HomeKo} />
           <Route path={pathKo+"/project"} component={ProjectsKo} />
           <Route path={pathKo+"/about"} component={AboutKo} />
           <Route path={pathKo+"/resume"} component={Resume} />
