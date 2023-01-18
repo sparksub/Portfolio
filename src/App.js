@@ -50,7 +50,7 @@ function App() {
           <Route path={path+"/resume"} component={Resume} />
 
           {/*KOREAN*/}
-          <Route path={pathKo+"/"} exact component={HomeKo} />
+          <Route path={pathKo} component={HomeKo} />
           <Route path={pathKo+"/project"} component={ProjectsKo} />
           <Route path={pathKo+"/about"} component={AboutKo} />
           <Route path={pathKo+"/resume"} component={Resume} />
