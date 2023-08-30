@@ -16,7 +16,6 @@
     "react-icons": "^4.2.0",
     "react-parallax-tilt": "^1.4.68",
     "react-particles-js": "^3.4.1",
-    "react-paypal-express-checkout": "^1.0.5",
     "react-pdf": "^5.4.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
@@ -28,8 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "cp build/index.html build/404.html && gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,9 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "caniuse-lite": "^1.0.30001524",
-    "gh-pages": "^6.0.0"
   }
 }
