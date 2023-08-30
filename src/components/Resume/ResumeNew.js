@@ -20,7 +20,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <img src={"https://user-images.githubusercontent.com/57142322/210320442-22c2a063-8d63-4e84-b9b0-249fdb9a415a.png"}
+          <img src={"https://github.com/sparksub/pillumi-2023/assets/57142322/8337f5f7-3e16-4ec9-ad84-284b23d939df"}
                alt="home pic"
                className="img-fluid"
                width={800}

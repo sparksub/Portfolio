@@ -6,8 +6,18 @@ import sv from "../../Assets/Projects/sv.png"
 import streaming from "../../Assets/Projects/streaming.png"
 import c2c from "../../Assets/Projects/c2c.png"
 import smb from "../../Assets/Projects/smb.png"
+import suv from "../../Assets/Projects/suv.png"
 
 export default [
+    {
+        title: "Students’ Understanding Visualizer",
+        imgPath: suv,
+        description: "During the COVID-19 pandemic, online teaching became vital. To address this, we introduce the Students’ Understanding Visualizer (SUV), enabling real-time comprehension visualization. Usability sessions with instructors reveal SUV's benefits, challenges, and design potential for effective online teaching tools.\n\nI was responsible for developing a prototype based on React.",
+        isLink1: "paper",
+        link1: "https://ieeexplore.ieee.org/abstract/document/10210371",
+        isLink2: "",
+        link2: ""
+    },
     {
         title: "Educational VR for OA",
         imgPath: vr,

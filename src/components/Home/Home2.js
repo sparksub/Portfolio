@@ -36,6 +36,8 @@ function Home2() {
               <br />
               <br />
               I like viewing artworks 🖼 and watching baseball game ⚾️
+              <br />
+              Also, I am sponsored by the Hyundai Motor Chung Mong-Koo Foundation.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
