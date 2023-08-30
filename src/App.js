@@ -10,7 +10,7 @@ import HomeKo from "./components/Home/ko/Home";
 import AboutKo from "./components/About/ko/AboutKo";
 import ProjectsKo from "./components/Projects/ko/Projects";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'; // 수정된 코드
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
